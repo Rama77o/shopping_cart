@@ -1,0 +1,53 @@
+.content h1 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.about img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 5px solid #a7b9a3;
+}
+
+.about h3 {
+    text-align: center;
+    background-color: #a7b9a3;
+    color: white;
+    height: 100px;
+    border-radius: 50%;
+    line-height: 5;
+    position: relative;
+    transform: translateY(-44px);
+    z-index: -1;
+}
+
+.icons {
+    background-color: #a7b9a3;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    color: white;
+}
+
+.icons .icon {
+    font-size: 25px;
+}
+
+.gmail {
+    background-color: #919f8e;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
